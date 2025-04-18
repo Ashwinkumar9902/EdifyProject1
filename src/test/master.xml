@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="pom.UpdateLeadData"/>
+      <class name="Factory.Lead"/>
+      <class name="Testng.Dataprovider"/>
+      <class name="pom.Logindata"/>
+      <class name="Testng.CreateLearnersWithTestng"/>
+      <class name="Testng.CRMLoginTestng"/>
+      <class name="Testng.FirstTestCaseTest"/>
+      <class name="Listeners.CreateLeadwithListener"/>
+      <class name="Testng.CreateLeadWithTestng"/>
+      <class name="Testng.CreateOpportunity_DataProvider"/>
+      <class name="Testng.UpdateLead"/>
+      <class name="createlead.Lead"/>
+      <class name="login.CRMWeb"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
