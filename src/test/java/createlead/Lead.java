@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Lead {
 	
 	WebDriver driver;
@@ -17,6 +19,8 @@ public class Lead {
 	
 	@BeforeClass()
 	void Login() {
+		WebDriverManager.chromedriver().setup();
+
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		mywait = new WebDriverWait(driver,Duration.ofSeconds(20));
@@ -41,6 +45,7 @@ public class Lead {
 		driver.findElement(By.name("phone")).sendKeys("9973647622");
 		
 		driver.findElement(By.xpath("//button[text()='Create']")).click();
+		driver.close();
 
 }
 }

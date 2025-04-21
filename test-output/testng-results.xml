@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-17T18:41:49 IST" name="Suite" finished-at="2025-04-17T18:42:29 IST" duration-ms="40038">
+  <suite started-at="2025-04-21T16:54:59 IST" name="Default suite" finished-at="2025-04-21T16:55:14 IST" duration-ms="14783">
     <groups>
     </groups>
-    <test started-at="2025-04-17T18:41:49 IST" name="Test" finished-at="2025-04-17T18:42:29 IST" duration-ms="40038">
+    <test started-at="2025-04-21T16:54:59 IST" name="Default test" finished-at="2025-04-21T16:55:14 IST" duration-ms="14783">
       <class name="createlead.Lead">
-        <test-method is-config="true" signature="Login()[pri:0, instance:createlead.Lead@770d3326]" started-at="2025-04-17T18:41:56 IST" name="Login" finished-at="2025-04-17T18:42:22 IST" duration-ms="25829" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:createlead.Lead@11bd0f3b]" started-at="2025-04-21T16:55:00 IST" name="Login" finished-at="2025-04-21T16:55:07 IST" duration-ms="7116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="createLead()[pri:1, instance:createlead.Lead@770d3326]" started-at="2025-04-17T18:42:22 IST" name="createLead" finished-at="2025-04-17T18:42:29 IST" duration-ms="7292" status="PASS">
+        <test-method signature="createLead()[pri:1, instance:createlead.Lead@11bd0f3b]" started-at="2025-04-21T16:55:07 IST" name="createLead" finished-at="2025-04-21T16:55:14 IST" duration-ms="7566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createLead -->
       </class> <!-- createlead.Lead -->
-      <class name="login.CRMWeb">
-        <test-method signature="log()[pri:0, instance:login.CRMWeb@157853da]" started-at="2025-04-17T18:41:50 IST" name="log" finished-at="2025-04-17T18:41:56 IST" duration-ms="6754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- log -->
-      </class> <!-- login.CRMWeb -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
